@@ -17,13 +17,16 @@ public class Task2 {
 
         System.out.println("array in the right direction");
         int[] array1 = {5, 9, 15, 25};
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < array1.length; i++) {
             System.out.println(array1[i]);
         }
         System.out.println("array in the opposite direction");
-        for (int i = 3; i >= 0; i--) {
+        for (int i = array1.length - 1; i >= 0; i--) {
             System.out.println(array1[i]);
         }
 
+
     }
+
+
 }
