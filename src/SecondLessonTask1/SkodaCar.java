@@ -15,7 +15,6 @@ public class SkodaCar extends Car{
         System.out.println("Description: " + description);
     }
 
-
     @Override
     public String toString() {
         return description + "warranty period: " + warrantyPeriod.toString() + " years";
