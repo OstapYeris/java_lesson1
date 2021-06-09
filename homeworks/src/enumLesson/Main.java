@@ -8,7 +8,7 @@ public class Main {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Введіть назву машини");
             String carCharacteristics = scanner.nextLine(); //чого scanner.nextLine, якщо можна просто scanner.next - результат той самий
-            if (carCharacteristics.equals("exit")) { // Не получилось додати toLowerCase()
+            if (carCharacteristics.toLowerCase().equals("exit")) {
                 System.out.println("До побачення");
                 return;
             }

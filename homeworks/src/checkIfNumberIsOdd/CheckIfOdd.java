@@ -5,11 +5,12 @@ import java.util.Scanner;
 public class CheckIfOdd {
 
     public static void check() {
-        for (int i = 0; i >= 0; i++) {
+        for (double i = 0; i >= 0; i++) {
             Scanner scaner = new Scanner(System.in);
             System.out.println("Введіть число:");
 
             Double number = scaner.nextDouble();
+//            System.out.println(number % 2);
             if (number % 2 == 0) {
                 System.out.println("Число парне");
             } else if (number % 2 == 1) {

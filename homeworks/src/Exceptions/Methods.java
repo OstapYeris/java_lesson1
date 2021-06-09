@@ -20,7 +20,7 @@ public class Methods {
         } else if (a == 0 && b == 0) {
             throw new IllegalAccessException("All numbers = 0");
         } else if (a > 0 && b > 0) {
-            throw new MyExceptions();
+            throw new MyExceptions("My own Exception (Some Error :=)  )");
         }
         System.out.println(c);
     }
@@ -41,7 +41,7 @@ public class Methods {
         } else if (a == 0 && b == 0) {
             throw new IllegalAccessException("All numbers = 0");
         } else if (a > 0 && b > 0) {
-            throw new MyExceptions();
+            throw new MyExceptions("My own Exception (Some Error :=)  )");
         }
         System.out.println(c);
     }
@@ -62,14 +62,14 @@ public class Methods {
         } else if (a == 0 && b == 0) {
             throw new IllegalAccessException("All numbers = 0");
         } else if (a > 0 && b > 0) {
-            throw new MyExceptions();
+            throw new MyExceptions("My own Exception (Some Error :=)  )");
         }
         System.out.println(c);
     }
 
     public static void multiplicationWithExceptions() throws Exception {
         Scanner scaner = new Scanner(System.in);
-        System.out.println("Ділення 2ох чисел");
+        System.out.println("Множення 2ох чисел");
         System.out.println("Введіть перше число:");
         Double a = scaner.nextDouble();
         System.out.println("Введіть друге число:");
@@ -83,7 +83,7 @@ public class Methods {
         } else if (a == 0 && b == 0) {
             throw new IllegalAccessException("All numbers = 0");
         } else if (a > 0 && b > 0) {
-            throw new MyExceptions();
+            throw new MyExceptions("My own Exception (Some Error :=)  )");
         }
         System.out.println(c);
     }
